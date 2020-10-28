@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polyditch", "Polyditch.csproj", "{A85258D8-2BB5-48F2-BA97-F1F45AC3280B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolyDitchEditor", "..\PolyDitchEditor\PolyDitchEditor.csproj", "{D8FC653D-5551-46AE-B012-00683B12027E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A85258D8-2BB5-48F2-BA97-F1F45AC3280B} = {A85258D8-2BB5-48F2-BA97-F1F45AC3280B}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A85258D8-2BB5-48F2-BA97-F1F45AC3280B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A85258D8-2BB5-48F2-BA97-F1F45AC3280B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A85258D8-2BB5-48F2-BA97-F1F45AC3280B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A85258D8-2BB5-48F2-BA97-F1F45AC3280B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8FC653D-5551-46AE-B012-00683B12027E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8FC653D-5551-46AE-B012-00683B12027E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8FC653D-5551-46AE-B012-00683B12027E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8FC653D-5551-46AE-B012-00683B12027E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {34BD2152-8573-4F53-AC3D-47719F686FC2}
+	EndGlobalSection
+EndGlobal
